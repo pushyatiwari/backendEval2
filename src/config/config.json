@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "Pushya_Tiwari",
+    "password": null,
+    "database": "ecomm_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "Pushya_Tiwari",
+    "password": null,
+    "database": "ecomm_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "Pushya_Tiwari",
+    "password": null,
+    "database": "ecomm_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
