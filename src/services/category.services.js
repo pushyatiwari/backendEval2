@@ -62,6 +62,7 @@ const insertProductDetails = async ({ name }) => {
     }
     return fetchedCategoryJson;
   } catch (error) {
+    console.log(`error: ${error.message}`);
     return 'category does not exist';
   }
 };
@@ -133,4 +134,5 @@ module.exports = {
   destroyAll,
   getDistinctFeatures,
   insertIntoCategory,
+  insertIntoItem,
 };
